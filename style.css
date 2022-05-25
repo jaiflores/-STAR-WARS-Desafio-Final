@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -43,6 +44,68 @@
     height: 177px;
     position: absolute;    
 }
+.soldado{
+    top: 835px;
+    left: -0.5px;
+    width: 814px;
+    height: 1462px;
+    position: absolute;
+
+}
+.img-strom-red{    
+    position: absolute;
+    top: 779px;
+    left: 278px;
+    width: 398px;
+    height: 584px;
+}
+.grupo-red{
+    position: absolute;
+    color: white;
+    width: 250px;
+    height: 150px;
+    font-size: 3.6rem;
+    left: 358px;
+    top: 860px;
+    text-align: center;
+    line-height: 1.5;
+    font-family: 'Open Sans', bold;
+}
+.grupro-red2{
+    position: absolute;
+    top: 1065px;
+    left: 310px;
+    width: 333px;
+    height: 81px;
+    color: white;
+    text-align: left;
+    font-family: 'Open Sans', regular;
+    letter-spacing: 0px;
+    font-size: 1.4rem;
+    opacity: 1;
+}
+.but-download{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    top: 1215px;
+    left: 377px;
+    border: 3px solid white;
+    border-radius: 5px;
+    font-family: 'Open Sans', normal;
+    font-size: 1.4rem;
+}
+.test-update{
+    position: absolute;
+    top: 1292px;
+    left: 554px;
+    width: 122px;
+    height: 14px;
+    color: white;
+    font-family: 'Open Sans', italic;
+    font-size: 0.7rem;
+}
+
 
 
 /*Aqui começa o responsivo*/
