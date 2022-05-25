@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteiner{
+    width: 100%;
+    height: 100%;
+}
+.estrela-da-morte{
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 835px;
+    opacity: 1;
+    position: relative;
+}
+.star{
+    top: 453px;
+    left: 366px;
+    width: 457px;
+    height: 117px;
+    position: absolute;
+}
+.wars{
+    top: 453px;
+    left: 1244px;
+    width: 501px;
+    height: 117px;
+    position: absolute;
+}
+.kylo-ren{
+    top: 0px;
+    left: 192px;
+    width: 1353px;
+    height: 1022px;
+    position: absolute;
+}
+.crie-sua-legiao{
+    top: 642px;
+    left: 1520px;
+    width: 176px;
+    height: 177px;
+    position: absolute;    
+}
+
+
+/*Aqui começa o responsivo*/
+@media (max-width: 1200px){
+
+}
