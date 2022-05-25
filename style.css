@@ -94,6 +94,8 @@
     border-radius: 5px;
     font-family: 'Open Sans', normal;
     font-size: 1.4rem;
+    background-color: inherit;
+    color: white;
 }
 .test-update{
     position: absolute;
