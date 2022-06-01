@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 img{
     width: 100%;
@@ -99,14 +100,35 @@ img{
     background-color: inherit;
     color: white;
 }
+.but-download:hover{
+    background-color: white;
+    color: red;
+    border: 3px solid black;
+    border-radius: 5px;
+}
 .sobre-o-jogo{
-    background-color: red;
+    
     display: flex;
+    text-align: end;
     position: absolute;
     top: 780px;
     left: 640px;
     width: 658px;
     height: 179px;
+}
+.line-sobre{
+    background-color: black;
+    width: 120px;
+    height: 3px;
+    left: 230px;
+    position: absolute;
+}
+.box-sobre{
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.texto-sobre{
+    margin-top: 10px;
 }
 .star-frente-batalha{
     width: 298px;
@@ -114,4 +136,58 @@ img{
     left: 1382px;
     top: 900px;
 
+}
+.wrap {
+    max-width: 1900px;
+    margin: 0 auto;
+}    
+  
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-lista {
+    width: 50%;
+    left: calc(35%);
+    margin-top: 1050px;
+    position: absolute;
+}
+.box-lista h2 {
+    color: black;
+    font-size: 2.5rem;
+    text-align: end;
+    width: 70%;
+}
+
+.box-lista ul {
+    width: 70%;
+    list-style: none;
+}
+.box-lista ul li {
+    margin-top: 0.3rem;
+    width: 100%;
+    padding: 0.5rem;
+    list-style: none;
+    cursor: pointer;
+    color: black;
+    font-size: 1rem;
+    text-align: end; 
+}
+.box-lista ul li:hover {
+    background-color: red;
+    color: white;
+}
+.img-lord-sifh{
+    position: absolute;
+    margin-top: 970px;
+    left: 175px;
+    width: 550px;
+}
+.img-rey{
+    position: absolute;
+    margin-top: 1050px;
+    left:calc(75%) ;
+    width: 250px;
 }
