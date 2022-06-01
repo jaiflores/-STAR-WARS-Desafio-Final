@@ -191,3 +191,12 @@ img{
     left:calc(75%) ;
     width: 250px;
 }
+.fundo-escuro{
+    background-color: #2D2D2D;
+    top: 1473px;
+    left: 0px;
+    width: auto;
+    height: 1345px;
+    position: relative;
+    
+}
