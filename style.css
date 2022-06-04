@@ -306,4 +306,7 @@ img{
     transition: 1s all;
     background-color: rgb(215, 68, 48, 0.7);
 }
+.fig-grande:hover .fig-1, .fig-media:hover .fig-2{
+    top:0
+}
 
