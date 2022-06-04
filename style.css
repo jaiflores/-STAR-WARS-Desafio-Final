@@ -1,9 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+   
 }
 img{
     width: 100%;
@@ -153,6 +157,8 @@ img{
     left: calc(35%);
     margin-top: 1050px;
     position: absolute;
+    
+    
 }
 .box-lista h2 {
     color: black;
@@ -164,7 +170,8 @@ img{
 .box-lista ul {
     width: 70%;
     list-style: none;
-}
+}    
+
 .box-lista ul li {
     margin-top: 0.3rem;
     width: 100%;
@@ -172,7 +179,7 @@ img{
     list-style: none;
     cursor: pointer;
     color: black;
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-align: end; 
 }
 .box-lista ul li:hover {
@@ -191,12 +198,112 @@ img{
     left:calc(75%) ;
     width: 250px;
 }
-.fundo-escuro{
+.box-escuro{
     background-color: #2D2D2D;
-    top: 1473px;
-    left: 0px;
-    width: auto;
-    height: 1345px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1473px;
+}
+.fundo-escuro{
+    width: 85vw;
+    padding-top: 8vw;
     position: relative;
+    margin: 0 auto;
     
 }
+.atributos{
+    font-size: 2.65vw;
+    padding-bottom: 3vw;
+    margin-left: 6vw;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.box-fig{
+    display: flex;
+    width: 85vw;
+}
+.box-fig img{
+    width: 100%;
+}
+.fig-1::before, .fig-1::after{
+    content: '';
+    border: 2px solid white;
+    position: absolute;
+    width: 4vw;
+}    
+.fig-1::before{
+    top: 0.3vw;
+    left: 0.9vw;
+    right: 1vw;
+}
+.fig-1::after{
+    bottom: 1.2vw;
+    right: 1vw;
+}
+.fig-1 h3::before{
+    content: '';
+    border: 2px solid white;
+    position: absolute;
+    top: -.7vw;
+    left: -1.6vw;
+    height: 3.5vw;
+}
+.fig-1 p::after{
+    content: '';
+    border: 2px solid white;
+    position: absolute;
+    bottom: 1.2vw;
+    right: 1vw;
+    height: 3.5vw;
+}
+.fig-2::before, .fig-2::after{
+    content: '';
+    border: 2px solid white;
+    position: absolute;
+    width: 3vw;
+    margin: 0;
+}
+.fig-2::before{
+    top: .3vw;
+    left: 1.1vw;
+    right: 1vw
+}
+.fig-2::after{
+    bottom: 1.2vw;
+    right: 1vw;
+}
+.fig-2 h3::before{
+    content: '';
+    border: 2px solid white;
+    position: absolute;
+    height: 2.5vw;
+    top: -.7vw;
+    left: -1.6vw;
+}
+.fig-2 p::before{
+    content: '';
+    border: 2px solid white;
+    position: absolute;
+    height: 2.5vw;
+    bottom: 1.2vw;
+    right: 1vw;
+}
+.fig-media, .fig-grande{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.fig-1, .fig-2{
+    width: 100%;
+    height: 100%;
+    padding: 1vw 3vw 1vw 2.5vw;
+    position: absolute;
+    top: -505px;
+    color: white;
+    transition: 1s all;
+    background-color: rgb(215, 68, 48, 0.7);
+}
+
