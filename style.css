@@ -198,6 +198,8 @@ img{
     left:calc(75%) ;
     width: 250px;
 }
+
+/*Aqui termina o topo da pagina e começa o quadro cinza (socorro Deus!!!) */
 .box-escuro{
     background-color: #2D2D2D;
     display: flex;
@@ -397,4 +399,82 @@ img{
     font-family: 'Assistant', sans-serif;
 }
 
-/*Aqui termina o quadro cinza e começa a parte branca (socorro Deus!!!) */
+/*Aqui termina o quadro cinza e começa a parte branca (socorro Deus!!!²) */
+
+.box-branco{
+    width: 100%;
+    position: relative;
+    background-color: white;
+}
+.box-branco-informação{
+    width: 85vw;
+    padding-bottom: 10vw;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+.storm-capa-preta{
+    width: 21vw;
+    position: absolute;
+    bottom: 8vw;
+    left: 6vw;
+    z-index: 99999;
+}
+.botoes-box-branco{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-top: 4vw;
+    gap: 5vw;
+}
+.box-line{
+    width: 6vw;
+    height: 4px;
+    display: block;
+    margin-top: 1.5vw;
+    background-color: black;
+    background: linear-gradient(to right, black 50%, #d74430 50%);
+    background-size: 200%;
+    transition: 0.5s ease-out;
+}
+.div-btn-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-h3-branco{
+    font-size: 2vw;
+    padding-bottom: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.box-btn{
+    background-color: black;
+    background: linear-gradient(to right, black 50%, #d74430 50%);
+    cursor: pointer;
+    padding: 0.5vw 2.7vw;
+    font-size: 1.6vw;
+    color: white;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    background-size: 200%;
+    transition: 0.5s ease-out;
+}
+.box-btn:hover{
+    background-color: #D74430;
+    background-position: right;
+}
+.div-btn-box:hover .box-line{
+    background-color: #d74430;
+    background-position: right;
+}
+.box-baixe{
+    padding-top: 1.5vw;
+}
+
+/*Até aqui muito choro e ranger de dente!!Brincadeira, mas tá dificil. /*
+/* Amanhã voltamos para fazer a footer e buscar o @media/*
