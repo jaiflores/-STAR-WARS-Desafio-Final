@@ -309,4 +309,92 @@ img{
 .fig-grande:hover .fig-1, .fig-media:hover .fig-2{
     top:0
 }
+.fig-1 h3{
+    width: 10vw;
+    text-align: left;
+    position: relative;
+    font-size: 2vw;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.fig-2 h3{
+    width: 10vw;
+    text-align: left;
+    position: relative;
+    font-size: 1.35vw;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
 
+}
+.fig-1 p{
+    width: 35vw;
+    margin: 2vw 0 4vw 0;
+    font-size: 2vw;
+    font-weight: 300;
+    font-family: 'Assistant', sans-serif;
+}
+.fig-2 p{
+    
+    width: 17vw;
+    margin: 1vw 0 3vw 0;
+    font-size: 0.8vw;
+    font-weight: 300;
+    font-family: 'Assistant', sans-serif;
+}
+.fig-1 button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    position: absolute;
+    bottom: 2vw;
+    left: 1.5vw;
+    font-size: 1vw;
+    font-weight: 300;
+    padding: .5vw 2.5vw;
+}
+.fig-2 button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2.5px solid white;
+    color: white;
+    position: absolute;
+    bottom: 1vw;
+    left: 1.5vw;
+    font-size: 0.8vw;
+    font-weight: 300;
+    padding: .5vw 2.5vw;
+}
+.segundo-box-escuro{
+    width: 85vw;
+    margin: 0 auto;
+}
+.segundo-box-escuro figure{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.segundo-box-escuro img{
+    width: 100%;
+}
+.segundo-box-escuro figcaption{
+    width: 45vw;
+    font-size: 1.05vw;
+    padding-top: 1.5rem;
+    color: white;
+    text-align: right;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+.segundo-box-escuro h2{
+    font-size: 2.65vw;
+    padding: 10vw 0;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Assistant', sans-serif;
+}
+
+/*Aqui termina o quadro cinza e começa a parte branca (socorro Deus!!!) */
